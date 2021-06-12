@@ -1,0 +1,77 @@
+.apples-wrapper .apple-icon {
+  width: 50px;
+  position: absolute;
+}
+
+.apples-wrapper .apple-icon:nth-child(1) {
+  left: 152px;
+  top: 109px;
+}
+
+.apples-wrapper .apple-icon:nth-child(2) {
+  left: 304px;
+  top: 198px;
+}
+
+.apples-wrapper .apple-icon:nth-child(3) {
+  left: 450px;
+  top: 219px;
+}
+
+.apples-wrapper.apple-basket .apple-icon:nth-child(1) {
+  left: 0px;
+  top: 80% !important;
+  -webkit-animation: opacityAnimation 1s;
+          animation: opacityAnimation 1s;
+}
+
+.apples-wrapper.apple-basket .apple-icon:nth-child(2) {
+  left: 50px;
+  top: 80% !important;
+  -webkit-animation: opacityAnimation 1s;
+          animation: opacityAnimation 1s;
+}
+
+.apples-wrapper.apple-basket .apple-icon:nth-child(3) {
+  left: 100px;
+  top: 80% !important;
+  -webkit-animation: opacityAnimation 1s;
+          animation: opacityAnimation 1s;
+}
+
+@-webkit-keyframes opacityAnimation {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacityAnimation {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=Apples.css.map */

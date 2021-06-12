@@ -1,0 +1,34 @@
+.apples-wrapper{
+  .apple-icon{
+    width: 50px;
+    position: absolute;
+    &{
+      @for $i from 1 through 3 {
+        &:nth-child(#{$i}) {
+          $random: random();
+          left: #{(floor($random*3)+150)*$i}px; // for apples to appear randomly on the tree
+          top: #{(floor($random*40)+70)*$i}px;
+        }
+      }
+    }
+  }
+  &.apple-basket{
+    .apple-icon{
+        @for $i from 1 through 3 {
+          &:nth-child(#{$i}) {
+            $random: random();
+            left: #{(($i)-1)*50}px; // for apples to appear in the basket
+            top: 80% !important;
+            animation: opacityAnimation 1s;
+          }
+        }
+        @keyframes opacityAnimation {
+          0% { opacity:0 }
+          25% { opacity: 0.25 }
+          50%  { opacity:0.5 }
+          75%  { opacity:0.75 }
+          100% { opacity:1; }
+        }
+    }
+  } 
+}

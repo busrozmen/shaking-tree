@@ -1,0 +1,42 @@
+.tree-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.tree-wrapper .animation-wrapper {
+  position: relative;
+}
+
+.tree-wrapper .shake-icon {
+  width: 70px;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  cursor: pointer;
+}
+
+.tree-wrapper .shake-icon.passive {
+  display: block;
+}
+
+.tree-wrapper .shake-icon.active {
+  display: none;
+}
+
+.tree-wrapper .tree-icon {
+  width: 600px;
+}
+
+.tree-wrapper .sign-icon {
+  width: 200px;
+  float: right;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Tree.css.map */

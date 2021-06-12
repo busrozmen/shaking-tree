@@ -1,0 +1,32 @@
+.tree-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+
+  .animation-wrapper{
+    position: relative;
+  }
+  .shake-icon{
+    width: 70px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    cursor: pointer;
+    &.passive{
+      display: block;
+    }
+    &.active{
+      display: none;
+    }
+  }
+  .tree-icon{
+    width: 600px;
+  }
+  .sign-icon{
+    width: 200px;
+    float: right;
+    cursor: pointer;
+  }
+}
+
+

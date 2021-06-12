@@ -1,0 +1,22 @@
+.basket-wrapper .basket-icon {
+  width: 150px;
+  position: absolute;
+  left: 0;
+  top: 75%;
+}
+
+.basket-wrapper .check-icon {
+  opacity: 0;
+  width: 30px;
+  position: absolute;
+  top: 90%;
+  left: 50px;
+}
+
+.basket-wrapper.full-basket .check-icon {
+  -webkit-transition: width 2s;
+  transition: width 2s;
+  opacity: 1;
+  width: 50px;
+}
+/*# sourceMappingURL=Basket.css.map */
