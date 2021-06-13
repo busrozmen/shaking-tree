@@ -4,18 +4,18 @@
 }
 
 .apples-wrapper .apple-icon:nth-child(1) {
-  left: 152px;
-  top: 109px;
+  left: 151px;
+  top: 87px;
 }
 
 .apples-wrapper .apple-icon:nth-child(2) {
   left: 304px;
-  top: 198px;
+  top: 208px;
 }
 
 .apples-wrapper .apple-icon:nth-child(3) {
-  left: 450px;
-  top: 219px;
+  left: 456px;
+  top: 312px;
 }
 
 .apples-wrapper.apple-basket .apple-icon:nth-child(1) {

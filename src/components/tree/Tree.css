@@ -8,6 +8,11 @@
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+  bottom: 30px;
+  position: absolute;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .tree-wrapper .animation-wrapper {

@@ -72,7 +72,7 @@ const Tree = (props) => {
           },
           keyframes:[
             {
-              top: '600px'
+              top: '550px'
             }
           ]
         }

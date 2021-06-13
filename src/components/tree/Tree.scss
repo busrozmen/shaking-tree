@@ -2,6 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: baseline;
+  bottom: 30px;
+  position: absolute;
+  margin-left: 50%;
+  transform: translateX(-50%);
 
   .animation-wrapper{
     position: relative;
