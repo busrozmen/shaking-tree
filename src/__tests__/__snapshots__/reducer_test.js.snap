@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`progress reducer shold handle GET_PROGRESS 1`] = `undefined`;
-
-exports[`progress reducer should return the initial state 1`] = `false`;
-
-exports[`shaked reducer shold handle IS_SHAKED 1`] = `undefined`;
-
-exports[`shaked reducer should return the initial state 1`] = `false`;
